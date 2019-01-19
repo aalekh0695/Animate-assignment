@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/yellowAccent3"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ball1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="37.5dp"
+        android:src="@drawable/redball" />
+
+    <ImageView
+        android:id="@+id/ball2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="37.5dp"
+        android:src="@drawable/redball" />
+
+    <ImageView
+        android:id="@+id/ball3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="37.5dp"
+        android:src="@drawable/redball" />
+
+
+    <ImageView
+        android:id="@+id/ballZoom"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/redball" />
+</RelativeLayout>
